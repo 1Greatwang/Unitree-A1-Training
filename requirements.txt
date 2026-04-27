@@ -1,0 +1,21 @@
+# A1 Robot RL Training - Dependencies
+# Python 3.8 required
+
+# Core
+numpy<1.24
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+torchaudio==0.13.1+cu117
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+# RL & Training
+rsl-rl==1.0.2
+tensorboard
+matplotlib
+
+# Isaac Gym (Manual install required)
+# Download from: https://developer.nvidia.com/isaac-gym
+# cd isaacgym/python && pip install -e .
+
+# Legged Gym (Included in project)
+# cd legged_gym && pip install -e .
